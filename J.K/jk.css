@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+   --zielony: #0B8673;
+   --bialy: #F5FAFF;
+   --czarny: #1E1E1E;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bialy);
+}
+.main{
+    height: 98%;
+    width: 98%;
+    border-color: var(--czarny);
+    border: 4px, var(--czarny);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.lewo{
+   display: flex;
+   flex-direction: column;
+   width: 65%;
+   height: 100%;
+   gap: 10%;
+}
+
+.prawo{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 65%);
+}
+
+
+.lewgora{
+    justify-content: space-around;
+}
+
+.cosod1do3{
+    width: 180px;
+    height: 100px;
+    background-color: var(--zielony);
+    text-decoration: none;
+    color: var(--bialy);
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+}
+.macka{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
