@@ -1,0 +1,219 @@
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+
+:root{
+   --zielony: #0B8673;
+   --bialy: #F5FAFF;
+   --czarny: #1E1E1E;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bialy);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    border-color: var(--czarny);
+    border: 4px, var(--czarny);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    gap: 10px;
+}
+.lewo{
+   display: flex;
+   flex-direction: column;
+   width: 65%;
+   height: 100%;
+   gap: 10%;
+}
+
+
+
+
+.lewgora{
+    height: 98%;
+    width: 80%;
+    border-color: var(--czarny);
+    border: 4px, var(--czarny);
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.blok1{
+    width: 180px;
+    height: 100px;
+    background-color: var(--zielony);
+    text-decoration: none;
+    color: var(--bialy);
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    font-family: "Nunito";
+}
+.macka{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+.blok2{
+    width: 180px;
+    height: 100px;
+    background-color: var(--zielony);
+    text-decoration: none;
+    color: var(--bialy);
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    font-family: "Nunito"; 
+}
+.blok3{
+    width: 180px;
+    height: 100px;
+    background-color: var(--zielony);
+    text-decoration: none;
+    color: var(--bialy);
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    font-family: "Nunito";
+}
+.blok4{
+    width: 180px;
+    height: 100px;
+    background-color: var(--zielony);
+    text-decoration: none;
+    color: var(--bialy);
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    font-family: "Nunito";
+}
+.lewydół{
+    background-color: #F5FAFF;
+    height: calc(75% - 0px);
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.Awatar{
+   width: 200px;
+}
+
+.ppl{
+    height: 80%;
+    width: 80%;
+    border-color: var(--czarny);
+    border: 4px, var(--czarny);
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.ppl2{
+    height: 700px;
+    width: 700px;
+}
+.tekst{
+    font-family: "Lilita One", sans-serif;
+}
+.tekst2{
+    font-family: sans-serif;
+    height: 80px;
+}
+.tekst3{
+    font-family: sans-serif;
+    
+}
+.exp{
+    height: 250px;
+    width: 250px;
+    border-color: var(--czarny);
+    border: 4px, var(--czarny);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+.exp1{
+  height: 80%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family:"Nunito";
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.exp2{
+    height: 100%;
+    width: 100%;
+    background-color: var(--czarny);
+    color: var(--bialy);
+    font-family: 'Nunito';
+}
+.form{
+    height: 250px;
+    width: 250px;
+    border-color: var(--czarny);
+    border: 4px, var(--czarny);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.form1{
+    height: 30%;
+    width: 100%;
+    background-color: var(--czarny);
+    color: var(--bialy);
+    font-family: 'Nunito';
+}
+
+
+.form2{
+    height: 100%;
+    width: 100%;
+    font-family: 'Nunito'; 
+}
+.email{
+    
+}
+.wiadomosc{
+    resize: none;
+}
+
+
